@@ -1,6 +1,6 @@
 {
   "name": "modified-leaflet-headless",
-  "version": "0.1",
+  "version": "0.1.0",
   "description": "Slightly modified version of Leaflet for node. (canvas removal)",
   "main": "index.js",
   "browser": "browser.js",
