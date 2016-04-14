@@ -12,7 +12,6 @@ if (!GLOBAL.L) {
 	GLOBAL.window = GLOBAL.document.defaultView;
 	GLOBAL.window.navigator.userAgent = 'webkit';
 	GLOBAL.navigator = GLOBAL.window.navigator;
-	GLOBAL.Image = require('./src/image.js');
 
 	GLOBAL.L_DISABLE_3D = true;
 	GLOBAL.L_PREFER_CANVAS = true;
@@ -59,7 +58,7 @@ if (!GLOBAL.L) {
 	// leaflet-image checks for instanceof(layer, L.TileLayer.Canvas)
 	// which is not in leaflet-1.0.0-beta.*, this makes the tests work.
 	// TODO: remove if this is fixed upstream in leaflet-image
-	L.TileLayer.Canvas = function () {};
+
 }
 
 module.exports = GLOBAL.L;
