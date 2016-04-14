@@ -5,8 +5,7 @@
   "main": "index.js",
   "browser": "browser.js",
   "scripts": {
-    "test": "mocha -t 30000 -R spec test/test.js && npm run lint",
-
+    "test": "mocha -t 30000 -R spec test/test.js && npm run lint"
   },
   "repository": {
     "type": "git",
